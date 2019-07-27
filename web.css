@@ -1,6 +1,11 @@
 #images{
     text-align: right;
 }
+
 h3{
     text-align:center;
+}
+
+body{
+    background-color: rgb(53, 53, 53);
 }
