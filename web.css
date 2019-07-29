@@ -10,6 +10,6 @@ body{
     background-color: rgb(198, 96, 255);
 }
 
-particles{
+#particles{
     position:absolute;
 }
