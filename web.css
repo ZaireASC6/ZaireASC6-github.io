@@ -20,9 +20,7 @@ h4{
     color: olive;
 }
 
-#particles{
-    position:absolute;
-}
+
 
 document.getElementById("me").innerHTML = "Hello Dolly.";
 
@@ -39,7 +37,7 @@ dropDown{
 }
   
   .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
   }
   
@@ -57,6 +55,7 @@ dropDown{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    z-index: 1;
   }
   
   .dropdown-content a:hover {background-color: #ddd;}
@@ -83,7 +82,6 @@ dropDown{
     font-family: 'Lato', sans-serif;
     text-align:center;
     background-color: navajowhite;
-    position: relative;
     padding: 30px;
     width: 250;
     border-radius: 50px;
@@ -92,7 +90,6 @@ dropDown{
     text-align: center;
     z-index: 5;
 }
-
 
 
 
