@@ -2,6 +2,104 @@
     text-align: right;
 }
 
+h3{
+    text-align:center;
+    font-family: 'Karla', sans-serif;
+    color: olive;
+}
+
+h2{
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    color: olive;
+}
+
+h4{
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+    color: olive;
+}
+
+#particles{
+    position:absolute;
+}
+
+document.getElementById("me").innerHTML = "Hello Dolly.";
+
+dropDown{
+
+}
+
+.dropbtn {
+    background-color: olive;
+    color: cornsilk;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: ivory;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: olive}
+
+  #profile_card{
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    background-color: navajowhite;
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: (0 0 1px rgb(255, 255, 240));
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+}
+
+#profile_card2{
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    background-color: navajowhite;
+    position: relative;
+    padding: 30px;
+    width: 250;
+    border-radius: 50px;
+    box-shadow: (0 0 1px rgb(255, 255, 240));
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+}
+
+
+
+
+/* #images{
+    text-align: right;
+}
+
 h2{
     text-align:center;
     font-family: 'Karla', sans-serif;
@@ -14,4 +112,4 @@ body{
 
 #particles{
     position:absolute;
-}
+} */
